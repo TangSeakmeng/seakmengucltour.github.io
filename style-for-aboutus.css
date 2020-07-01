@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Arvo', serif;
+}
+
+body {
+    background-color: #f5f5f5;
+}
+
+header {
+    height: 1000px;
+    background-image: url('Landscape 4.jpg');
+    background-repeat: no-repeat;
+    padding: 50px 0px 50px 0px;
+}
+
+.content {
+    text-align: center;
+    padding: 20px;
+}
+
+.content .for-staff {
+    margin: 20px auto;
+    display: inline-block;
+    background-color: white;
+    text-align: left;
+    width: 80%;
+    padding: 20px;
+}
+
+.content .for-staff:hover {
+    box-shadow: 10px 10px 8px #888888;
+    transition: 1s;
+}
+
+.content .for-staff img {
+    float:left;
+    width: 9%;
+}
+
+.content .for-staff .for-text {
+    width: 85%;
+    float: left;
+    margin-left: 20px;
+    line-height: 30px;
+    text-align: justify;
+}
+
+.content .for-history {
+    width: 80%;
+    padding: 20px;
+    margin: 20px auto;
+    display: inline-block;
+}
+
+.content .for-history p {
+    line-height: 30px;
+}
+
+.content .for-staff-image {
+    width: 80%;
+    padding: 20px;
+    margin: 20px auto;
+    display: inline-block;
+}
+
+@media screen and (max-width: 500px)
+{
+    header {
+        background-image: url('P-landscape 2.jpg');
+    }
+
+    .for-container .for-element {
+        width: 80%;
+        clear: both;
+        float: none;
+        margin: 30px auto;
+    }
+
+    .for-container .for-element:last-child {
+        width: 80%;
+        clear: both;
+        float: none;
+        margin: 30px auto;
+    }
+}

@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+
+    overflow-x: hidden;
+}
+
+.container {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin: 30px auto;
+}
+
+.container .leftside {
+    position: absolute;
+    width: 15%;
+    height: 100%;
+    z-index: 2;
+    
+    background-color: #f5f5f5;
+}
+
+.container .rightside {
+    position: absolute;
+    width: 15%;
+    height: 100%;
+    right: 0;
+    top: 0;
+    z-index: 2;
+
+    background-color: #f5f5f5;
+}
+
+.slider {
+    overflow: hidden;
+}
+
+.slider {
+    position: relative;
+    width: 350%;
+    margin: 0;
+    left: 0;
+    text-align: left;
+    font-size: 0;
+    animation: 20s slider infinite;
+
+    z-index: 1;
+}
+
+.slider img {
+    width: 20%;
+    float: left;
+}   
+
+@keyframes slider {
+    0% {
+        left: 15%;
+    }
+    10% {
+        left: 15%;
+    }
+    20% {
+        left: -55%;
+    }
+    30% {
+        left: -55%;
+    }
+    40% {
+        left: -125%;
+    }
+    50% {
+        left: -125%;
+    }
+    60% {
+        left: -195%;
+    }
+    70% {
+        left: -195%;
+    }
+    80% {
+        left: -265%;
+    }
+    90% {
+        left: -265%;
+    }
+    100% {
+        left: -350%;
+    }
+}

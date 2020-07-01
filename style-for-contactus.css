@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Arvo', serif;
+}
+
+body {
+    background-color: #f5f5f5;
+}
+
+header {
+    height: 1000px;
+    background-image: url('Landscape 3.jpg');
+    background-repeat: no-repeat;
+    padding: 50px 0px 50px 0px;
+}
+
+.content {
+    /* width: 90%; */
+    max-width: 1500px;
+    margin: 50px auto;
+    line-height: 25px;
+    overflow: auto;
+}
+
+.content .first-column {
+    width: 33%;
+    float: left;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.content div img {
+    margin-bottom: 30px;
+}
+
+.content div h4 {
+    margin-top: 30px;
+}
+
+.content .first-column img {
+    width: 100px;
+}
+
+.content .second-column {
+    width: 33%;
+    float: left;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.content .second-column img {
+    width: 100px;
+}
+
+.content .third-column {
+    width: 33%;
+    float: left;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.content .third-column img {
+    height: 100px;
+}
+
+.content .for-map {
+    clear: both;
+    text-align: center;
+}
+
+.content .for-map iframe{
+    width: 88%;
+    height: 500px;
+}
+
+.content .for-sending-email {
+    clear: both;
+    margin-top: 30px;
+    width: 88.5%;
+    margin: 30px auto;
+    background-color: #ffd41d;
+    overflow: auto;
+}
+
+.content .for-sending-email .leftside {
+    width: 30%;
+    float: left;
+    padding: 40px;
+    box-sizing: border-box;
+}
+
+.content .for-sending-email .rightside {
+    padding: 40px;
+    box-sizing: border-box;
+    width: 70%;
+    float: right;
+    background-color: white;
+}
+
+.content .for-sending-email .rightside form  {
+    width: 100%;
+    display: block;
+}
+
+.content .for-sending-email .rightside form label {
+    color: #b2b2b2;
+    display: block;
+    margin-top: 30px;
+}
+
+.content .for-sending-email .rightside form textarea {
+    height: 200px;
+}
+
+.content .for-sending-email .rightside form textarea, input {
+    width: 100%;
+    border: none;
+    background-color: #f2f4f4;
+
+    border-radius: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.content .for-sending-email .rightside form .for-name {
+    width: 50%;
+    float: left;
+}
+
+.content .for-sending-email .rightside form .for-email {
+    width: 48%;
+    float: right;
+}
+
+.content .for-sending-email .rightside form .btnCancel {
+    color: #ef004a;
+    padding: 10px 25px;
+    border: none;
+    font-weight: bold;
+    font-size: 25px;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 30px;
+    float: left;
+}
+
+.content .for-sending-email .rightside form .btnCancel:hover {
+    background-color: #f2f4f4;
+    transition: 1s;
+}
+
+.content .for-sending-email .rightside form .btnSend {
+    background-color: #ef004a;
+    padding: 10px 50px;
+    border: none;
+    font-weight: bold;
+    font-size: 25px;
+    color: white;
+    border-radius: 10px;
+    margin-top: 30px;
+    float: right;
+}
+
+.content .for-sending-email .rightside form .btnSend:hover {
+    background-color: #af033a;
+    transition: 1s;
+}
+
+@media screen and (max-width: 1000px)
+{
+    .for-container .for-element {
+        width: 45%;
+    }
+}
+
+@media screen and (max-width: 800px)
+{
+    .content .first-column {
+        width: 100%;
+    }
+
+    .content .second-column {
+        width: 100%;
+    }
+
+    .content .third-column {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 500px)
+{
+    header {
+        background-image: url('P-landscape 4.jpg');
+    }
+
+    .content .for-sending-email .leftside {
+        width: 100%;
+    }
+
+    .content .for-sending-email .rightside {
+        width: 100%;
+    } 
+}

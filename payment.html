@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Payment</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link href="https://fonts.googleapis.com/css2?family=Arvo&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style-for-header.css">
+        <link rel="stylesheet" href="style-for-payment.css">
+        <link rel="stylesheet" href="style-for-footer.css">
+    </head>
+    <body>
+        <header style="background-image: none; height: 50px; position: relative; z-index: 1000;">
+            <div class="for-nav" style="background-color: orange; top: 0px;">
+                <a href="index.html">
+                    <img src="UCI World Tour.png">
+                </a>
+                
+                <nav style="top: 25px;">
+                    <a href="index.html">Home</a>
+                    <a href="destinations.html">Destination</a>
+                    <a href="hotels.html">Hotel</a>
+                    <a href="contactus.html">Contact Us</a>
+                    <a href="aboutus.html">About Us</a>
+                </nav>
+
+                <div class="for-sidebar-menu">
+                    <input type="checkbox" class="openSidebarMenu" id="openSidebarMenu">
+                    <label for="openSidebarMenu" class="sidebarIconToggle">
+                        <div class="spinner diagonal part-1"></div>
+                        <div class="spinner horizontal"></div>
+                        <div class="spinner diagonal part-2"></div>
+                    </label>
+                    <div id="sidebarMenu">
+                        <ul class="sidebarMenuInner">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="destinations.html">Destination</a></li>
+                            <li><a href="hotels.html">Hotel</a></li>
+                            <li><a href="contactus.html">Contact Us</a></li>
+                            <li><a href="aboutus.html">About</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="for-title" style="display: none;">
+                <h1>Destination</h1>
+                <h4>Choose any destination and open the world!</h4>
+            </div>
+        </header>
+
+        <div class="container">
+            <div class="leftside">
+                <div class="for-amount">
+                    <div>
+                        <h4>Total Payment:</h4><br>
+                        <h1>$999</h1>
+                    </div>
+                </div>
+                <div class="for-cancel">
+                    <a href="booking.html">
+                        <button> Cancel Your Payment</button>
+                    </a>
+                </div>
+            </div>
+            <div class="rightside">
+                <h1>Payment</h1>
+                <div class="payment-method">
+                    <h4>Pay with Credit Card</h4>
+                    <img src="Visa_Logo.png">
+                </div>
+                
+                <form>
+                    <div class="row">
+                        <div class="inputElement">
+                            <label for="txtCardNumber">Credit Card Number</label><br>
+                            <input type="text" id="txtCardNumber" style="width: 95%;">
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="inputElement">
+                            <label for="txtCardNumber">Expiration</label><br>
+                            <input type="text" id="txtCardNumber">
+                        </div>
+                        <div class="inputElement">
+                            <input type="text" id="txtCardNumber">
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="inputElement">
+                            <label for="txtCardNumber">CVC / CW (3 or 4 digits code)</label><br>
+                            <input type="text" id="txtCardNumber" style="width: 95%;">
+                        </div>
+                    </div>
+
+                    <div class="lastRow">
+                        <button style="background-color: darkcyan;">Pay Now</button>
+                        <hr>
+                        <p>or select other payment method</p>
+                        <a>
+                            <button style="background-color: royalblue;">
+                                Pay With
+                                <img src="unnamed.png">
+                            </button>
+                        </a>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <footer>
+            <div class="first-footer-row">
+                <div class="for-contact-us">
+                    <h1>Contact Us</h1>
+                </div>
+                <div class="for-subscribe">
+                    <form>
+                        <input type="text" id="txtName" name="txtName" placeholder="Name">
+                        <input type="text" id="txtEmail" name="txtEmail" placeholder="Email">
+                        <button type="button">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            <div class="second-footer-row">
+                <div class="first-column">
+                    <h3>Get Started</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="destinations.html">Destination</a></li>
+                        <li><a href="hotels.html">Hotel</a></li>
+                        <li><a href="contactus.html">Contact Us</a></li>
+                        <li><a href="aboutus.html">About Us</a></li>
+                    </ul>
+                </div>
+                <div class="second-column">
+                    <h4>Follow Us</h4>
+                    <div class="for-image">
+                        <ul>
+                            <li><a href="https://web.facebook.com/?_rdc=1&_rdr" target="_blank"><img src="facebook_old_40px.png"></a></li>
+                            <li><a href="https://www.youtube.com/" target="_blank"><img src="youtube_48px.png"></a></li>
+                            <li><a href="https://twitter.com/explore" target="_blank"><img src="twitter_48px.png"></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="third-column">
+                    <h4>About Us</h4>
+                    <p>
+                        What is Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry"s standard 
+                        dummy text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book it has?
+                    </p>
+                </div>
+            </div>
+        </footer>
+        
+        <div id="for-copyright">
+            <p>Copyright LopsidedAxis. All right reserved.</p>
+        </div>
+    </body>
+</html>
